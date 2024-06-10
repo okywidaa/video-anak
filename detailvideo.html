@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laman Video</title>
+    <link rel="stylesheet" href="video.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Edukasi Anak</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="videopage.html">Video Page</a></li>
+                <li><a href="team.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Selamat Datang di Edukasi Anak</h2>
+            <p>Video-video edukatif yang menyenangkan untuk anak-anak.</p>
+        </section>
+        <div class="video-container">
+            <iframe src="video/video1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="comments-section">
+            <h2>Komentar</h2>
+            <div class="comment">
+                <div class="comment-author">User1</div>
+                <div class="comment-text">Komentar pertama.</div>
+            </div>
+            <div class="comment">
+                <div class="comment-author">User2</div>
+                <div class="comment-text">Komentar kedua.</div>
+            </div>
+            <form class="comment-form">
+                <label for="comment-textbox">Tinggalkan Komentar:</label>
+                <textarea id="comment-textbox" name="comment" rows="4" placeholder="Tulis komentar Anda di sini..."></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Edukasi Anak. All rights reserved.</p>
+    </footer>
+</body>
+</html>
