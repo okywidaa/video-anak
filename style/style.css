@@ -144,6 +144,24 @@ footer div {
   height: 30vh;
   z-index: 1;
   position: relative;
+  margin-bottom: 5%;
+}
+
+.centered-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-wrapper {
+  width: 60%; /* Atur ukuran lebar sesuai kebutuhan */
+  max-width: 800px; /* Atur lebar maksimum */
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+  border-radius: 10px; /* Membuat sudut melengkung */
+  overflow: hidden; /* Agar video tidak keluar dari container */
+  background: #000; /* Warna latar belakang video */
+  margin-bottom: 2%;
 }
 
 .video-item {

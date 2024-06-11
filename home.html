@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edukasi Anak</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <h1>Edukasi Anak</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="videopage.html">Video Page</a></li>
-          <li><a href="team.html">About us</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edukasi Anak</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+<header>
+  <div class="logo">
+    <h1>Edukasi Anak</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="videopage.html">Video Page</a></li>
+      <li><a href="team.html">About us</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main>
-      <section class="hero">
-        <h2>Selamat Datang di Edukasi Anak</h2>
-        <p>Video-video edukatif yang menyenangkan untuk anak-anak.</p>
-        <button onclick="location.href='https://www.youtube.com'">
-          Tonton Sekarang
-        </button>
-        <video autoplay loop muted class="background-video">
-          <source src="video/video6.mp4" type="video/mp4" />
-        </video>
-      </section>
+<main>
+  <section class="hero">
+    <h2>Selamat Datang di Edukasi Anak</h2>
+    <p>Video-video edukatif yang menyenangkan untuk anak-anak.</p>
+    <div class="video-wrapper">
+      <video controls id="centered-video">
+        <source src="video/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
-      <section class="videos">
-        <h2>Video Terbaru</h2>
-        <div class="video-grid">
-         
- 
-<div class="video-container">
-  <div class="video-item">
-    <img src="img/cowo.jpg" alt="Video Thumbnail 1" class="video-thumbnail">
-    <a href="detailvideo.html" class="detail-button">Lihat Detail Video 1</a>
-  </div>
-  <div class="video-item">
-    <img src="img/cowo.jpg" alt="Video Thumbnail 2" class="video-thumbnail">
-    <a href="detailvideo2.html" class="detail-button">Lihat Detail Video 2</a>
-  </div>
-  <div class="video-item">
-    <img src="img/cowo.jpg" alt="Video Thumbnail 3" class="video-thumbnail">
-    <a href="detailvideo3.html" class="detail-button">Lihat Detail Video 3</a>
-  </div>
-      </div>
+    <button onclick="location.href='https://www.youtube.com'">
+      Tonton Sekarang
+    </button>
+    <video autoplay loop muted class="background-video">
+      <source src="video/video6.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section class="videos">
+    <h2>Video Terbaru</h2>
+    <div class="video-grid">
+      <div class="video-container">
+        <div class="video-item">
+          <img src="img/cowo.jpg" alt="Video Thumbnail 1" class="video-thumbnail">
+          <a href="video-detail/detailvideo.html" class="detail-button">Lihat Video 1</a>
         </div>
-      </section>
-    </main>
+        <div class="video-item">
+          <img src="img/cowo.jpg" alt="Video Thumbnail 2" class="video-thumbnail">
+          <a href="video-detail/detailvideo2.html" class="detail-button">Lihat Video 2</a>
+        </div>
+        <div class="video-item">
+          <img src="img/cowo.jpg" alt="Video Thumbnail 3" class="video-thumbnail">
+          <a href="video-detail/detailvideo3.html" class="detail-button">Lihat Video 3</a>
+        </div>
+        </div>
+    </div>
+  </section>
+</main>
 
-    <footer>
-      <p>&copy; 2024 Edukasi Anak. All rights reserved.</p>
-    </footer>
-  </body>
+<footer>
+  <p>&copy; 2024 Edukasi Anak. All rights reserved.</p>
+</footer>
+</body>
 </html>
